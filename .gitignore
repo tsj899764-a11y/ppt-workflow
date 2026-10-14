@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.zip
+local-config.json
+.env
+private-library/
+private-output/

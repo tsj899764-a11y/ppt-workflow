@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "project_name": "",
+  "status": "draft",
+  "input_evidence": [],
+  "content_reference_page_ids": [],
+  "deliverables": {},
+  "approvals": {
+    "content": {"status": "not_submitted", "version": "", "artifact": "", "scope": [], "user_reply_evidence": ""},
+    "html": {"status": "not_submitted", "version": "", "artifact": "", "scope": [], "user_reply_evidence": ""},
+    "final_adoption": {"status": "not_confirmed", "user_reply_evidence": ""}
+  },
+  "visual_acceptance": {"status": "not_checked", "artifact": "", "page_results": []},
+  "lifecycle": {
+    "phase_complete": false,
+    "protected_files": [],
+    "temporary_files": [],
+    "knowledge_review": {"status": "pending", "candidates": []}
+  },
+  "public_release": {"status": "private", "authorized_files": []}
+}

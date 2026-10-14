@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Workflow"
+  short_description: "编排PPT内容，连接私有知识库，先确认内容和HTML，再制作可编辑演示并验收"
+  default_prompt: "使用 $ppt-workflow，根据我提供的资料先编排逐页内容，确认后再设计HTML。"

@@ -1,0 +1,68 @@
+{
+  "version": "0.1.0",
+  "private_library_copied": false,
+  "audit_scope": "allowlist and text heuristics; not a full confidentiality certification",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "93d6b96941b27127a7277deacf8e3cd60aa92b2a0af7879ff4d9b91d16d43256"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "af1e59fd7a9a9b0882c933e21c4ee517fb0f055f90948f7757c2f55ba715c564"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "600e39bf03491b1c18fc1cf7f12fb8c97afcb1431025c9c8e5ed3f1a53e2a0e4"
+    },
+    {
+      "path": "skills/ppt-workflow/SKILL.md",
+      "sha256": "6cdf909332487339bcd2a64b0873650a8eb249b05878cfdd66b989790b845daf"
+    },
+    {
+      "path": "skills/ppt-workflow/agents/openai.yaml",
+      "sha256": "57a14002d3ba47c14656fe46a88f60f7b26386cb50c54931a8dcd184cc22a269"
+    },
+    {
+      "path": "skills/ppt-workflow/scripts/kb_search.py",
+      "sha256": "4bdc67111443003276e1039c3293c48a62c6f140927d3e727d6cac7caad4ec4a"
+    },
+    {
+      "path": "skills/ppt-workflow/references/library.md",
+      "sha256": "0bcc5e6d8b137166a154970b3803a945c74012af12c88a13a2e4c64f674ad168"
+    },
+    {
+      "path": "skills/ppt-workflow/references/skeletons.md",
+      "sha256": "99c42fc8a8df94e376b5a73563b091b60f289be0012c74446628276964b7a416"
+    },
+    {
+      "path": "skills/ppt-workflow/references/design.md",
+      "sha256": "f9d7b93f5bec4b6e72e38280fe4962a99c7e481b8b6a193ae3c3e36e3e8af3f1"
+    },
+    {
+      "path": "skills/ppt-workflow/references/lifecycle.md",
+      "sha256": "183084314ebdac26b52fc2c898a58de112f41774d951c5b828252a6e5e9adeea"
+    },
+    {
+      "path": "skills/ppt-workflow/assets/project_manifest.template.json",
+      "sha256": "de2b96008ff7c0ee687fe2643bf8bbd049d2a5bd896ded998fa0952b7752070a"
+    },
+    {
+      "path": "skills/ppt-workflow/assets/demo-library/csv/page_index.csv",
+      "sha256": "edf75e2b171d9acabe232434ef14c97c9c9f66c57eeb86b5d4cb4b4549ff5e8f"
+    },
+    {
+      "path": "skills/ppt-workflow/assets/demo-library/pages.jsonl",
+      "sha256": "80ce43307ee7841d8630cf72081d5f748bc7807548077ac7d068f79438f4263d"
+    },
+    {
+      "path": "tools/build_release.py",
+      "sha256": "7b45b47577b778aa4d3521311eba7ef4683fe7d46441b2e69e2bbc65303d8fea"
+    },
+    {
+      "path": "tests/test_tools.py",
+      "sha256": "a1465381f58e53c22c3dd0c96574f0eb9f0109545cd80376eca6814acd5a2d18"
+    }
+  ],
+  "repository": "https://github.com/tsj899764-a11y/ppt-workflow"
+}

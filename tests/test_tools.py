@@ -55,6 +55,23 @@ class ToolTests(unittest.TestCase):
             (root / 'escape').symlink_to(ROOT, target_is_directory=True)
             self.assertIsNone(search.safe_child(root, 'escape/README.md'))
 
+    def test_skeleton_budget_integrity(self):
+        folder = ROOT / 'skills/ppt-workflow/assets/skeleton-library'
+        with (folder / 'skeletons.csv').open(encoding='utf-8-sig') as stream:
+            skeletons = list(csv.DictReader(stream))
+        with (folder / 'skeleton_steps.csv').open(encoding='utf-8-sig') as stream:
+            steps = list(csv.DictReader(stream))
+        self.assertEqual({s['skeleton_id'] for s in skeletons}, {f'S{i:03}' for i in range(1, 11)})
+        self.assertFalse(any('reference_page_ids' in s for s in steps))
+        for skeleton in skeletons:
+            sequence = [s for s in steps if s['skeleton_id'] == skeleton['skeleton_id']]
+            self.assertEqual(sum(int(s['page_budget']) for s in sequence), int(skeleton['default_page_count']))
+            position = 1
+            for step in sequence:
+                self.assertEqual(int(step['suggested_page_start']), position)
+                position += int(step['page_budget'])
+                self.assertEqual(int(step['suggested_page_end']), position - 1)
+
     def test_release_whitelist(self):
         with tempfile.TemporaryDirectory() as folder:
             target = Path(folder) / 'release.zip'
@@ -62,7 +79,7 @@ class ToolTests(unittest.TestCase):
             with zipfile.ZipFile(target) as archive:
                 names = archive.namelist()
                 self.assertEqual(len(names), len(release.FILES) + 1)
-                manifest = json.loads(archive.read('ppt-workflow-v0.1.0/release_manifest.json'))
+                manifest = json.loads(archive.read('ppt-workflow-v0.2.0/release_manifest.json'))
                 self.assertFalse(manifest['private_library_copied'])
                 self.assertEqual(result['files'], len(names))
                 self.assertFalse(any(n.endswith(('.pptx', '.pdf', '.xlsx', '.png')) for n in names))

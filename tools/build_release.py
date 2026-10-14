@@ -19,6 +19,12 @@ FILES = (
     'skills/ppt-workflow/assets/project_manifest.template.json',
     'skills/ppt-workflow/assets/demo-library/csv/page_index.csv',
     'skills/ppt-workflow/assets/demo-library/pages.jsonl',
+    'skills/ppt-workflow/references/design-standards/AI_PPT_高级视觉设计知识库_MVP_V2.0.md',
+    'skills/ppt-workflow/references/design-standards/PPT视觉执行与验收_V1.2.md',
+    'skills/ppt-workflow/references/design-standards/PPT内容驱动设计方法_V1.0_公开版.md',
+    'skills/ppt-workflow/references/design-standards/licenses/huashu-design-MIT.txt',
+    'skills/ppt-workflow/assets/skeleton-library/skeletons.csv',
+    'skills/ppt-workflow/assets/skeleton-library/skeleton_steps.csv',
     'tools/build_release.py', 'tests/test_tools.py',
 )
 RULES = {
@@ -56,13 +62,13 @@ def build(root, target, deny_terms=()):
     if target.exists():
         raise ValueError('目标包已存在，请选择新的版本名，避免覆盖交付')
     target.parent.mkdir(parents=True, exist_ok=True)
-    manifest = {'version': '0.1.0', 'private_library_copied': False,
+    manifest = {'version': '0.2.0', 'private_library_copied': False,
                 'audit_scope': 'allowlist and text heuristics; not a full confidentiality certification',
                 'files': [{'path': name, 'sha256': hashlib.sha256(content).hexdigest()} for name, content in payload.items()]}
     with zipfile.ZipFile(target, 'x', compression=zipfile.ZIP_DEFLATED) as archive:
         for name, content in payload.items():
-            archive.writestr('ppt-workflow-v0.1.0/' + name, content)
-        archive.writestr('ppt-workflow-v0.1.0/release_manifest.json', json.dumps(manifest, ensure_ascii=False, indent=2))
+            archive.writestr('ppt-workflow-v0.2.0/' + name, content)
+        archive.writestr('ppt-workflow-v0.2.0/release_manifest.json', json.dumps(manifest, ensure_ascii=False, indent=2))
     return {'files': len(payload) + 1, 'sha256': hashlib.sha256(target.read_bytes()).hexdigest(), 'text_checks': 'passed'}
 
 

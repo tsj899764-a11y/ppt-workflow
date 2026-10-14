@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private_library_copied": false,
   "audit_scope": "allowlist and text heuristics; not a full confidentiality certification",
   "files": [
     {
       "path": "README.md",
-      "sha256": "93d6b96941b27127a7277deacf8e3cd60aa92b2a0af7879ff4d9b91d16d43256"
+      "sha256": "4d2019314054b0b50670d0d3033c05227a00c7a8eea01c5bba48355e761f5a12"
     },
     {
       "path": "LICENSE",
@@ -17,7 +17,7 @@
     },
     {
       "path": "skills/ppt-workflow/SKILL.md",
-      "sha256": "6cdf909332487339bcd2a64b0873650a8eb249b05878cfdd66b989790b845daf"
+      "sha256": "cb2182d0052516afcbae7a1160f8eff35ba5f691a0775342b2cafae55ac01a1a"
     },
     {
       "path": "skills/ppt-workflow/agents/openai.yaml",
@@ -33,11 +33,11 @@
     },
     {
       "path": "skills/ppt-workflow/references/skeletons.md",
-      "sha256": "99c42fc8a8df94e376b5a73563b091b60f289be0012c74446628276964b7a416"
+      "sha256": "d6a383c6483d95dc5c3913897192f633d27d6562aba8aaf1c2d6abe833aefcc2"
     },
     {
       "path": "skills/ppt-workflow/references/design.md",
-      "sha256": "f9d7b93f5bec4b6e72e38280fe4962a99c7e481b8b6a193ae3c3e36e3e8af3f1"
+      "sha256": "bf772d4aa855e92225a4d0f9e3b6c92d11066f5a05f6d71a3dbad6aa024a6005"
     },
     {
       "path": "skills/ppt-workflow/references/lifecycle.md",
@@ -45,7 +45,7 @@
     },
     {
       "path": "skills/ppt-workflow/assets/project_manifest.template.json",
-      "sha256": "de2b96008ff7c0ee687fe2643bf8bbd049d2a5bd896ded998fa0952b7752070a"
+      "sha256": "ba798919f0f42a9a8cf0843388269c4e15b6ca7814d5d890e389db2e22479cef"
     },
     {
       "path": "skills/ppt-workflow/assets/demo-library/csv/page_index.csv",
@@ -56,13 +56,36 @@
       "sha256": "80ce43307ee7841d8630cf72081d5f748bc7807548077ac7d068f79438f4263d"
     },
     {
+      "path": "skills/ppt-workflow/references/design-standards/AI_PPT_高级视觉设计知识库_MVP_V2.0.md",
+      "sha256": "da0af0f87064355fb0f36e063b3ef40a98f30d85f55631ba99d3bc81d0a741b3"
+    },
+    {
+      "path": "skills/ppt-workflow/references/design-standards/PPT视觉执行与验收_V1.2.md",
+      "sha256": "a2df71b62dd7370a7b859f831d3c7c752727a328450de6ce1fc4cf0248381d58"
+    },
+    {
+      "path": "skills/ppt-workflow/references/design-standards/PPT内容驱动设计方法_V1.0_公开版.md",
+      "sha256": "c54690e1f512825ab6626dfac8dc096537d1e797de54399c15b060fa1d7dad29"
+    },
+    {
+      "path": "skills/ppt-workflow/references/design-standards/licenses/huashu-design-MIT.txt",
+      "sha256": "6d6a2a9caf2e6d2b76974050427053b2892d8aa4c33fd168ce63a537fcee9d96"
+    },
+    {
+      "path": "skills/ppt-workflow/assets/skeleton-library/skeletons.csv",
+      "sha256": "6f84864ad7c9ba78551f15d166705926cbb73b4e45454c461727cef10fbcbc14"
+    },
+    {
+      "path": "skills/ppt-workflow/assets/skeleton-library/skeleton_steps.csv",
+      "sha256": "8166749b798c2dca2445dadad066feb00d0885edc3f0d655e09e9e48c1b3cea3"
+    },
+    {
       "path": "tools/build_release.py",
-      "sha256": "7b45b47577b778aa4d3521311eba7ef4683fe7d46441b2e69e2bbc65303d8fea"
+      "sha256": "02cc3a26363f9e3301e8e3b2646d6d6b685f3bd297afeb28c979b300acabc9b0"
     },
     {
       "path": "tests/test_tools.py",
-      "sha256": "a1465381f58e53c22c3dd0c96574f0eb9f0109545cd80376eca6814acd5a2d18"
+      "sha256": "380125cf8894c159527fac10d80ec6d87122f40f83d153d1740ba6f4298304a6"
     }
-  ],
-  "repository": "https://github.com/tsj899764-a11y/ppt-workflow"
+  ]
 }

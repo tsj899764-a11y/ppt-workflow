@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "project_name": "",
   "status": "draft",
   "input_evidence": [],
@@ -69,13 +69,17 @@
     "version_directories": [
       "v1.0"
     ],
-    "minor_revision_policy": "同目录另存文件；实质变化另建目录；不得覆盖批准稿及其素材"
+    "minor_revision_policy": "同目录另存文件；实质变化另建目录；不得覆盖批准稿及其素材",
+    "project_container": "项目"
   },
   "field_notes": {
     "confirmations": "每条已确认记录保留版本、文件、范围、用户回复依据；旧approvals或独立文件按来源读取，不推定批准。",
     "page_records": "复用已有逐页设计依据字段及九项验收，acceptance_by_target区分HTML/PPTX；fact_status与结构复用分开。",
     "preview_policy": "HTML预览PDF默认生成；成品预览PDF按需生成。定稿回流完成后保留交付/预览的PPTX逐页PNG，HTML依赖及必要历史验收证据保留。",
     "phase_complete": "只有用户最终采用、实际验收、成果与依据保全、回流completed或有依据的none_new全部满足才设true。",
-    "temporary_files": "逐文件登记path（仅_build内相对路径）、temporary=true、rebuildable=true、phase_complete=true、rebuild_inputs、rebuild_method；未登记或受保护文件先列清单确认，不绕过宿主保护。"
+    "temporary_files": "逐文件登记path（仅_build内相对路径）、temporary=true、rebuildable=true、phase_complete=true、rebuild_inputs、rebuild_method；未登记或受保护文件先列清单确认，不绕过宿主保护。",
+    "project_location": "路径由用户项目输出根目录指定；有库时默认工作区/项目/<项目名称>，清单成果路径仍相对实际项目目录。",
+    "archive_navigation": "有库时外部原件正式发布后按主骨架受控归档；完整项目留在项目目录，统一目录说明只链接，回流发布与收尾完成分开显示。",
+    "without_library": "无知识库也可用本次资料、骨架和设计规范制作与交付；不自动建库或虚报回流。没有目标时记录未配置与真实候选，未审阅保持pending，不阻止最终交付。"
   }
 }

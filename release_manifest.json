@@ -1,11 +1,11 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private_library_copied": false,
   "audit_scope": "allowlist and text heuristics; not a full confidentiality certification",
   "files": [
     {
       "path": "README.md",
-      "sha256": "4d2019314054b0b50670d0d3033c05227a00c7a8eea01c5bba48355e761f5a12"
+      "sha256": "45da2aa9503474f136021058289d226d8206ddbc28a7a52ad65d44829aa7af7c"
     },
     {
       "path": "LICENSE",
@@ -17,7 +17,7 @@
     },
     {
       "path": "skills/ppt-workflow/SKILL.md",
-      "sha256": "cb2182d0052516afcbae7a1160f8eff35ba5f691a0775342b2cafae55ac01a1a"
+      "sha256": "8fe1eebc8a05e8083fff8d190c40f90bca2a52261a55de0185e73be7171b19f9"
     },
     {
       "path": "skills/ppt-workflow/agents/openai.yaml",
@@ -37,15 +37,15 @@
     },
     {
       "path": "skills/ppt-workflow/references/design.md",
-      "sha256": "bf772d4aa855e92225a4d0f9e3b6c92d11066f5a05f6d71a3dbad6aa024a6005"
+      "sha256": "15e740867c78211071000b49808bcf3303007ea249be228b2dc97ec293601ba9"
     },
     {
       "path": "skills/ppt-workflow/references/lifecycle.md",
-      "sha256": "183084314ebdac26b52fc2c898a58de112f41774d951c5b828252a6e5e9adeea"
+      "sha256": "aea1830a39e080552a1ab210120275dc922a13640fa07f04374281d03cb12c29"
     },
     {
       "path": "skills/ppt-workflow/assets/project_manifest.template.json",
-      "sha256": "ba798919f0f42a9a8cf0843388269c4e15b6ca7814d5d890e389db2e22479cef"
+      "sha256": "b749925152102d2d5f0c38f447bec95a8808210f8dfc2011954dc6ace6fe5d6e"
     },
     {
       "path": "skills/ppt-workflow/assets/demo-library/csv/page_index.csv",
@@ -81,11 +81,11 @@
     },
     {
       "path": "tools/build_release.py",
-      "sha256": "02cc3a26363f9e3301e8e3b2646d6d6b685f3bd297afeb28c979b300acabc9b0"
+      "sha256": "34b0fddcade6a58265e30a24fb0ac77713904b779b6fac7c0383632bb2d2cd5c"
     },
     {
       "path": "tests/test_tools.py",
-      "sha256": "380125cf8894c159527fac10d80ec6d87122f40f83d153d1740ba6f4298304a6"
+      "sha256": "8a3900d32f2318d4960c629b98edce4479bf7b76b42a8a2986937c0121d0bcd8"
     }
   ]
 }

@@ -1,21 +1,81 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "project_name": "",
   "status": "draft",
   "input_evidence": [],
   "content_reference_page_ids": [],
   "deliverables": {},
-  "approvals": {
-    "content": {"status": "not_submitted", "version": "", "artifact": "", "scope": [], "user_reply_evidence": ""},
-    "html": {"status": "not_submitted", "version": "", "artifact": "", "scope": [], "user_reply_evidence": ""},
-    "final_adoption": {"status": "not_confirmed", "user_reply_evidence": ""}
+  "visual_acceptance": {
+    "status": "not_checked",
+    "artifact": "",
+    "page_results": []
   },
-  "visual_acceptance": {"status": "not_checked", "artifact": "", "page_results": []},
   "lifecycle": {
     "phase_complete": false,
     "protected_files": [],
     "temporary_files": [],
-    "knowledge_review": {"status": "pending", "candidates": []}
+    "knowledge_review": {
+      "status": "pending",
+      "candidates": []
+    }
   },
-  "public_release": {"status": "private", "authorized_files": []}
+  "public_release": {
+    "status": "private",
+    "authorized_files": []
+  },
+  "confirmations": {
+    "records": [
+      {
+        "stage": "content",
+        "status": "pending",
+        "version": null,
+        "artifact_path": null,
+        "scope": null,
+        "user_reply_evidence": null,
+        "confirmed_at": null,
+        "sha256": null
+      },
+      {
+        "stage": "html",
+        "status": "pending",
+        "version": null,
+        "artifact_path": null,
+        "scope": null,
+        "user_reply_evidence": null,
+        "confirmed_at": null,
+        "sha256": null
+      },
+      {
+        "stage": "final_adoption",
+        "status": "pending",
+        "version": null,
+        "artifact_path": null,
+        "scope": null,
+        "user_reply_evidence": null,
+        "confirmed_at": null,
+        "sha256": null
+      }
+    ]
+  },
+  "content_artifact": "v1.0/内容稿.md",
+  "html_artifact": "v1.0/HTML/index.html",
+  "presentation": "v1.0/交付/项目_v1.0.pptx",
+  "page_records": {
+    "v1.0": "v1.0/页面记录.json"
+  },
+  "current_final": null,
+  "input_files": [],
+  "storage_layout": {
+    "version_directories": [
+      "v1.0"
+    ],
+    "minor_revision_policy": "同目录另存文件；实质变化另建目录；不得覆盖批准稿及其素材"
+  },
+  "field_notes": {
+    "confirmations": "每条已确认记录保留版本、文件、范围、用户回复依据；旧approvals或独立文件按来源读取，不推定批准。",
+    "page_records": "复用已有逐页设计依据字段及九项验收，acceptance_by_target区分HTML/PPTX；fact_status与结构复用分开。",
+    "preview_policy": "HTML预览PDF默认生成；成品预览PDF按需生成。定稿回流完成后保留交付/预览的PPTX逐页PNG，HTML依赖及必要历史验收证据保留。",
+    "phase_complete": "只有用户最终采用、实际验收、成果与依据保全、回流completed或有依据的none_new全部满足才设true。",
+    "temporary_files": "逐文件登记path（仅_build内相对路径）、temporary=true、rebuildable=true、phase_complete=true、rebuild_inputs、rebuild_method；未登记或受保护文件先列清单确认，不绕过宿主保护。"
+  }
 }

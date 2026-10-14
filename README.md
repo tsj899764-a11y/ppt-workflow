@@ -1,6 +1,6 @@
-# PPT Workflow 0.2.0
+# PPT Workflow 0.2.1
 
-可分发Skill版本0.2.0。通用方法、只读检索工具与虚构示例公开；使用者自行连接私有资料库。本包不含真实公司PPT、客户案例、私有索引或预览，也不自动上传或发布内容。
+可分发Skill版本0.2.1。通用方法、只读检索工具与虚构示例公开；使用者自行连接私有资料库。本包不含真实公司PPT、客户案例、私有索引或预览，也不自动上传或发布内容。
 
 ## 安装与开始
 
@@ -30,15 +30,19 @@ python3 skills/ppt-workflow/scripts/kb_search.py "运营" --include-text
 
 ```bash
 python3 tests/test_tools.py
-python3 tools/build_release.py --output ../ppt-workflow-v0.2.0.zip
+python3 tools/build_release.py --output ../ppt-workflow-v0.2.1.zip
 ```
 
 本包新编写的通用方法、脚本、用户授权公开的设计规范与虚构示例采用MIT许可。内容驱动设计方法包含MIT许可的改编内容，原作者署名及完整许可随包保留。许可不覆盖使用者的私有库、第三方素材或宿主工具。私有资料及第三方素材不在本公开发行范围内。
 
 ## 完整设计规范
 
-V0.2.0接入视觉设计V2.0、执行验收V1.2及内容驱动设计方法V1.0公开版。Skill在内容批准后的设计阶段读取完整规范，不仅依赖摘要。公开版移除真实案例、私有引用与内部授权记录，保留第三方署名及MIT许可。入口见skills/ppt-workflow/references/design.md。
+V0.2.1接入视觉设计V2.0、执行验收V1.2及内容驱动设计方法V1.0公开版。Skill在内容批准后的设计阶段读取完整规范，不仅依赖摘要。公开版移除真实案例、私有引用与内部授权记录，保留第三方署名及MIT许可。入口见skills/ppt-workflow/references/design.md。
 
 ## 完整骨架库
 
 包含S001–S010共10套骨架，附逐步写作任务、页数预算与机器CSV。移除了私有资料ID和来源案例引用。默认页数是可调整建议，不是实际项目承诺。
+
+## 项目存储与预览
+
+同一实质版本集中保存内容、HTML和交付；确认记录合入清单，HTML/PPTX验收区分记录。小修订文件级另存，实质变化另建版本目录，定稿不重复复制归档。默认生成HTML预览PDF，成品预览PDF按需生成；定稿回流收尾后常规逐页PNG保留一套PPTX成品预览。必要历史证据及依赖素材继续保护；清理复用宿主机制，未登记文件先列具体清单确认。详见Skill的references/lifecycle.md。

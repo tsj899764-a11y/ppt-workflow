@@ -79,7 +79,7 @@ class ToolTests(unittest.TestCase):
             with zipfile.ZipFile(target) as archive:
                 names = archive.namelist()
                 self.assertEqual(len(names), len(release.FILES) + 1)
-                manifest = json.loads(archive.read('ppt-workflow-v0.2.0/release_manifest.json'))
+                manifest = json.loads(archive.read('ppt-workflow-v0.2.1/release_manifest.json'))
                 self.assertFalse(manifest['private_library_copied'])
                 self.assertEqual(result['files'], len(names))
                 self.assertFalse(any(n.endswith(('.pptx', '.pdf', '.xlsx', '.png')) for n in names))

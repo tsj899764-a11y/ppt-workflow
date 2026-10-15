@@ -14,18 +14,36 @@
 
 ## 效果预览
 
-**小红书运营模式分析｜HTML 页面节选**
+**小红书运营模式分析｜完整16页HTML示例**
 
-来自用户提供的16页HTML报告，基于2021年文献分析。下方以小图展示，点击图片可放大。
+基于2021年文献分析。全部16页以小图展示，点击图片可放大。
+
+[查看／下载完整 HTML](docs/examples/xiaohongshu-analysis.html) · 保存HTML到本地后，用浏览器打开即可翻页和查看讲述提示。
 
 <table>
   <tr>
-    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-cover.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-cover.jpg" width="320" alt="小红书运营模式分析：封面 · 主题与视觉焦点"></a><br><sub>封面 · 主题与视觉焦点</sub></td>
-    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-logic.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-logic.jpg" width="320" alt="小红书运营模式分析：核心逻辑 · 内容与商业链路"></a><br><sub>核心逻辑 · 内容与商业链路</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-cover.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-cover.jpg" width="160" alt="小红书运营模式分析：P01 · 封面"></a><br><sub>P01 · 封面</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-02.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-02.jpg" width="160" alt="小红书运营模式分析：P02 · 汇报顺序"></a><br><sub>P02 · 汇报顺序</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-03.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-03.jpg" width="160" alt="小红书运营模式分析：P03 · 文献边界"></a><br><sub>P03 · 文献边界</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-logic.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-logic.jpg" width="160" alt="小红书运营模式分析：P04 · 核心逻辑"></a><br><sub>P04 · 核心逻辑</sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-engagement.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-engagement.jpg" width="320" alt="小红书运营模式分析：用户黏性 · 反馈关系"></a><br><sub>用户黏性 · 反馈关系</sub></td>
-    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-comparison.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-comparison.jpg" width="320" alt="小红书运营模式分析：方案对比 · 信息表格"></a><br><sub>方案对比 · 信息表格</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-05.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-05.jpg" width="160" alt="小红书运营模式分析：P05 · UGC起点"></a><br><sub>P05 · UGC起点</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-06.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-06.jpg" width="160" alt="小红书运营模式分析：P06 · 流量获取"></a><br><sub>P06 · 流量获取</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-engagement.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-engagement.jpg" width="160" alt="小红书运营模式分析：P07 · 用户黏性"></a><br><sub>P07 · 用户黏性</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-08.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-08.jpg" width="160" alt="小红书运营模式分析：P08 · 转化断点"></a><br><sub>P08 · 转化断点</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-09.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-09.jpg" width="160" alt="小红书运营模式分析：P09 · 商业化方式"></a><br><sub>P09 · 商业化方式</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-10.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-10.jpg" width="160" alt="小红书运营模式分析：P10 · SWOT"></a><br><sub>P10 · SWOT</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-11.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-11.jpg" width="160" alt="小红书运营模式分析：P11 · 内容信任"></a><br><sub>P11 · 内容信任</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-12.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-12.jpg" width="160" alt="小红书运营模式分析：P12 · 直播延伸"></a><br><sub>P12 · 直播延伸</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-comparison.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-comparison.jpg" width="160" alt="小红书运营模式分析：P13 · 自营与合作"></a><br><sub>P13 · 自营与合作</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-14.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-14.jpg" width="160" alt="小红书运营模式分析：P14 · 文献评价"></a><br><sub>P14 · 文献评价</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-15.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-15.jpg" width="160" alt="小红书运营模式分析：P15 · 研究启示"></a><br><sub>P15 · 研究启示</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-16.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-page-16.jpg" width="160" alt="小红书运营模式分析：P16 · 结论"></a><br><sub>P16 · 结论</sub></td>
   </tr>
 </table>
 

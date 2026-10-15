@@ -8,7 +8,26 @@
 
 你可以直接用自己的材料开始，也可以连接本地私有知识库，让已有方案、内容资产和改稿经验参与后续制作。
 
-当前版本：**0.2.3** · [开始使用](#开始使用) · [制作流程](#从资料到交付每一步都看得见) · [10 套骨架](#内置-10-套商业-ppt-骨架)
+当前版本：**0.2.3** · [效果预览](#效果预览) · [开始使用](#开始使用) · [制作流程](#从资料到交付每一步都看得见) · [10 套骨架](#内置-10-套商业-ppt-骨架)
+
+---
+
+## 效果预览
+
+**小红书运营模式分析｜HTML 页面节选**
+
+来自用户提供的16页HTML报告，基于2021年文献分析。下方以小图展示，点击图片可放大。
+
+<table>
+  <tr>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-cover.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-cover.jpg" width="320" alt="小红书运营模式分析：封面 · 主题与视觉焦点"></a><br><sub>封面 · 主题与视觉焦点</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-logic.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-logic.jpg" width="320" alt="小红书运营模式分析：核心逻辑 · 内容与商业链路"></a><br><sub>核心逻辑 · 内容与商业链路</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-engagement.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-engagement.jpg" width="320" alt="小红书运营模式分析：用户黏性 · 反馈关系"></a><br><sub>用户黏性 · 反馈关系</sub></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-comparison.jpg"><img src="https://raw.githubusercontent.com/tsj899764-a11y/ppt-workflow/main/docs/previews/xiaohongshu-comparison.jpg" width="320" alt="小红书运营模式分析：方案对比 · 信息表格"></a><br><sub>方案对比 · 信息表格</sub></td>
+  </tr>
+</table>
 
 ---
 

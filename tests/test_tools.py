@@ -79,8 +79,11 @@ class ToolTests(unittest.TestCase):
             with zipfile.ZipFile(target) as archive:
                 names = archive.namelist()
                 self.assertEqual(len(names), len(release.FILES) + 1)
-                manifest = json.loads(archive.read('ppt-workflow-v0.2.2/release_manifest.json'))
+                manifest = json.loads(archive.read('ppt-workflow-v0.2.3/release_manifest.json'))
                 self.assertFalse(manifest['private_library_copied'])
+                guide = 'skills/ppt-workflow/references/AI建库与Skill绑定执行说明_V1.1.md'
+                self.assertIn('ppt-workflow-v0.2.3/' + guide, names)
+                self.assertEqual(archive.read('ppt-workflow-v0.2.3/' + guide), (ROOT / guide).read_bytes())
                 self.assertEqual(result['files'], len(names))
                 self.assertFalse(any(n.endswith(('.pptx', '.pdf', '.xlsx', '.png')) for n in names))
             with self.assertRaises(ValueError):

@@ -1,11 +1,11 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "private_library_copied": false,
   "audit_scope": "allowlist and text heuristics; not a full confidentiality certification",
   "files": [
     {
       "path": "README.md",
-      "sha256": "78c029e4fd35b301cc97b9013f7682743da5c37134a2c792583a0a18a94a8760"
+      "sha256": "57909a86349dbf686e858332d99f3dc9eba6e3a88ff181d3e93757f7a0834243"
     },
     {
       "path": "LICENSE",
@@ -17,7 +17,7 @@
     },
     {
       "path": "skills/ppt-workflow/SKILL.md",
-      "sha256": "aa3eaf4a90ae73fd510e81ea96fc43f0a3cf1cb22278ee268692b150afcd7a38"
+      "sha256": "58d405bd5cc47e975ffcc51c06870d470ea87aee7020bfc902718dfa23891fb1"
     },
     {
       "path": "skills/ppt-workflow/agents/openai.yaml",
@@ -29,7 +29,11 @@
     },
     {
       "path": "skills/ppt-workflow/references/library.md",
-      "sha256": "c2b5e4577bf4ac3f446ee914bb6d0ca3819bce918c0a4d9256697bf0aa95dd82"
+      "sha256": "cf3d8ef88a2e43dc7abf519f395b817715eea60d88409a5df926b5cd3db705c6"
+    },
+    {
+      "path": "skills/ppt-workflow/references/AI建库与Skill绑定执行说明_V1.1.md",
+      "sha256": "4cec73760133aa8393a10b531fc97e43ca2d965d0748eb45b5859abaa4550fd7"
     },
     {
       "path": "skills/ppt-workflow/references/skeletons.md",
@@ -41,11 +45,11 @@
     },
     {
       "path": "skills/ppt-workflow/references/lifecycle.md",
-      "sha256": "ecd867a5dbc118feab15b0efbcbd53d2899b6a9359b5db554ad567976b37d661"
+      "sha256": "319fbe8c22e0998e1ac4b6f69ede94d1657a0f70647c6e2790bb99e8f5af55dd"
     },
     {
       "path": "skills/ppt-workflow/assets/project_manifest.template.json",
-      "sha256": "18a6eb6855810ef328939dddf014ad6b2b5a6b1d589c864d541ddb26f747cd31"
+      "sha256": "66f2edb5e8e713a394b1b9f05d57539d2c1ff4c4ebbe2d8f851c0e41a3d5c4e5"
     },
     {
       "path": "skills/ppt-workflow/assets/demo-library/csv/page_index.csv",
@@ -81,11 +85,11 @@
     },
     {
       "path": "tools/build_release.py",
-      "sha256": "ccb90a8cfc73795b14d877047854c12ba4e38e774116bcd8fedb1710d2adcb6b"
+      "sha256": "9e8a31494d29a5ca96e3ba0e75ee5d809bf4f1ce4b3a75327b6e9264a688aafa"
     },
     {
       "path": "tests/test_tools.py",
-      "sha256": "c99a52d8315207395132f5b150a13210981dbe4d9d6d4a2daefcdca41deb92bd"
+      "sha256": "8d15ff08b8b6964864311da801cf6abc431c1841a3f2d53c66af928fe3760559"
     }
   ]
 }

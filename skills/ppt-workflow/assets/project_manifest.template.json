@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.2",
+  "schema_version": "0.2.3",
   "project_name": "",
   "status": "draft",
   "input_evidence": [],
@@ -17,6 +17,13 @@
     "knowledge_review": {
       "status": "pending",
       "candidates": []
+    },
+    "cleanup": {
+      "status": "not_assessed",
+      "execute": false,
+      "deleted_count": 0,
+      "deleted_bytes": 0,
+      "total_deleted_bytes": 0
     }
   },
   "public_release": {
@@ -80,6 +87,7 @@
     "temporary_files": "逐文件登记path（仅_build内相对路径）、temporary=true、rebuildable=true、phase_complete=true、rebuild_inputs、rebuild_method；未登记或受保护文件先列清单确认，不绕过宿主保护。",
     "project_location": "路径由用户项目输出根目录指定；有库时默认工作区/项目/<项目名称>，清单成果路径仍相对实际项目目录。",
     "archive_navigation": "有库时外部原件正式发布后按主骨架受控归档；完整项目留在项目目录，统一目录说明只链接，回流发布与收尾完成分开显示。",
-    "without_library": "无知识库也可用本次资料、骨架和设计规范制作与交付；不自动建库或虚报回流。没有目标时记录未配置与真实候选，未审阅保持pending，不阻止最终交付。"
+    "without_library": "无知识库也可用本次资料、骨架和设计规范制作与交付；不自动建库或虚报回流。没有目标时记录未配置与真实候选，未审阅保持pending，不阻止最终交付。",
+    "cleanup": "回流收尾满足前提后由助手主动发起当前项目评估、执行获授权auto项，其他具体候选集中确认。planned仅清单/预演，pending_confirmation待确认，needs_attention错误或跳过，not_ready未满足收尾，completed实际处理且无待决项；记录before/after体积与实际删除数量、字节和累计释放量。phase_complete不代表清理已完成。"
   }
 }

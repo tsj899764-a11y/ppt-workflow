@@ -13,6 +13,7 @@ FILES = (
     'skills/ppt-workflow/agents/openai.yaml',
     'skills/ppt-workflow/scripts/kb_search.py',
     'skills/ppt-workflow/references/library.md',
+    'skills/ppt-workflow/references/AI建库与Skill绑定执行说明_V1.1.md',
     'skills/ppt-workflow/references/skeletons.md',
     'skills/ppt-workflow/references/design.md',
     'skills/ppt-workflow/references/lifecycle.md',
@@ -62,13 +63,13 @@ def build(root, target, deny_terms=()):
     if target.exists():
         raise ValueError('目标包已存在，请选择新的版本名，避免覆盖交付')
     target.parent.mkdir(parents=True, exist_ok=True)
-    manifest = {'version': '0.2.2', 'private_library_copied': False,
+    manifest = {'version': '0.2.3', 'private_library_copied': False,
                 'audit_scope': 'allowlist and text heuristics; not a full confidentiality certification',
                 'files': [{'path': name, 'sha256': hashlib.sha256(content).hexdigest()} for name, content in payload.items()]}
     with zipfile.ZipFile(target, 'x', compression=zipfile.ZIP_DEFLATED) as archive:
         for name, content in payload.items():
-            archive.writestr('ppt-workflow-v0.2.2/' + name, content)
-        archive.writestr('ppt-workflow-v0.2.2/release_manifest.json', json.dumps(manifest, ensure_ascii=False, indent=2))
+            archive.writestr('ppt-workflow-v0.2.3/' + name, content)
+        archive.writestr('ppt-workflow-v0.2.3/release_manifest.json', json.dumps(manifest, ensure_ascii=False, indent=2))
     return {'files': len(payload) + 1, 'sha256': hashlib.sha256(target.read_bytes()).hexdigest(), 'text_checks': 'passed'}
 
 
